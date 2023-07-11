@@ -1,0 +1,937 @@
+[
+    {
+        "id": "8ff046fd9c9cb0ca",
+        "type": "tab",
+        "label": "Dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e1d915911b7acde9",
+        "type": "tab",
+        "label": "Styles",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3c53310ea1dffefe",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#809299",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#ff1a47",
+                "baseFont": "Trebuchet MS,Helvetica,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#ff1a47",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#ff1a47",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#ff6684",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#ff1a47",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Trebuchet MS,Helvetica,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "pink",
+                "accents": "blue",
+                "warn": "red",
+                "background": "blue-grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "iHeart",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "icon",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 45,
+                "sy": 50,
+                "gx": 25,
+                "gy": 6,
+                "cx": 2,
+                "cy": 10,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "43cff23b9d97cc33",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "fa-heartbeat",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6d7a4111ac77a0eb",
+        "type": "ui_tab",
+        "name": "Input",
+        "icon": "fa-user-plus",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9bf7f1a2de44675c",
+        "type": "ui_group",
+        "name": "Person Simulator",
+        "tab": "6d7a4111ac77a0eb",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2e7a922ff139fdbe",
+        "type": "ui_group",
+        "name": "Blood Pressure (mmHg)",
+        "tab": "43cff23b9d97cc33",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "01d033214dc342bd",
+        "type": "ui_group",
+        "name": "Heart Rate (BPM)",
+        "tab": "43cff23b9d97cc33",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b58590aa088ddfa6",
+        "type": "ui_group",
+        "name": "Oxygen Saturation (SpO₂)",
+        "tab": "43cff23b9d97cc33",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3740a2b3d58da6f9",
+        "type": "ui_group",
+        "name": "Temperature (°C)",
+        "tab": "43cff23b9d97cc33",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b102a1005c10def3",
+        "type": "ui_group",
+        "name": "Voice Notification",
+        "tab": "43cff23b9d97cc33",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2bd175bf0c5c1f3f",
+        "type": "ui_slider",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "",
+        "label": "Slider",
+        "tooltip": "",
+        "group": "9bf7f1a2de44675c",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "flow",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 230,
+        "y": 180,
+        "wires": [
+            [
+                "01fee5e3c1a2f537",
+                "be6c3ca5303ccece",
+                "b8d5a8b2578fc592",
+                "6744f9a95e2313a1",
+                "bc471138b76d5bb2",
+                "af40cea7d9568a11"
+            ]
+        ]
+    },
+    {
+        "id": "01fee5e3c1a2f537",
+        "type": "ui_gauge",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "",
+        "group": "9bf7f1a2de44675c",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Person Activity",
+        "label": "Active",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "3",
+        "seg2": "6",
+        "diff": false,
+        "className": "",
+        "x": 260,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "be6c3ca5303ccece",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "bloodPressureGenerator",
+        "func": "let maxSystolicPressure, minSystolicPressure, maxDiastolicPressure, minDiastolicPressure;\nlet systolicPressure, diastolicPressure, bloodPressureStatus;\n\nif (msg.payload == 0) {\n    bloodPressureStatus = \"DEAD ASF\"\n    maxSystolicPressure = 0;\n    minSystolicPressure = 0;\n    maxDiastolicPressure = 0;\n    minDiastolicPressure = 0;\n} else if (msg.payload < 3) {\n    bloodPressureStatus = \"Low blood (Hypotension)\"\n    maxSystolicPressure = 90;\n    minSystolicPressure = 70;\n    maxDiastolicPressure = 60;\n    minDiastolicPressure = 40;\n} else if (msg.payload < 7) {\n    bloodPressureStatus = \"Ideal\"\n    maxSystolicPressure = 120;\n    minSystolicPressure = 90;\n    maxDiastolicPressure = 60;\n    minDiastolicPressure = 80;\n} else if (msg.payload < 9) {\n    bloodPressureStatus = \"High blood (Hypertension)\"\n    maxSystolicPressure = 139;\n    minSystolicPressure = 130;\n    maxDiastolicPressure = 89;\n    minDiastolicPressure = 80;\n} else {\n    bloodPressureStatus = \"WARNING!!!\"\n    maxSystolicPressure = 200;\n    minSystolicPressure = 140;\n    maxDiastolicPressure = 120;\n    minDiastolicPressure = 90;\n}\n\nsystolicPressure = Math.floor(Math.random() * (maxSystolicPressure - minSystolicPressure + 1)) + minSystolicPressure;\ndiastolicPressure = Math.floor(Math.random() * (maxDiastolicPressure - minDiastolicPressure + 1)) + minDiastolicPressure;\n\nmsg.payload = {\n    systolicPressure: systolicPressure,\n    diastolicPressure: diastolicPressure,\n    bloodPressureStatus: bloodPressureStatus\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 180,
+        "wires": [
+            [
+                "82c99b130c8c9883",
+                "55920ec4f8eae7c5",
+                "1b61de0d2d0855b0"
+            ]
+        ]
+    },
+    {
+        "id": "8bc39465552ce4f9",
+        "type": "inject",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "",
+        "props": [
+            {
+                "p": "time",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 90,
+        "y": 180,
+        "wires": [
+            [
+                "2bd175bf0c5c1f3f"
+            ]
+        ]
+    },
+    {
+        "id": "416543ea03c6eb9b",
+        "type": "ui_chart",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "",
+        "group": "2e7a922ff139fdbe",
+        "order": 1,
+        "width": "6",
+        "height": "5",
+        "label": "Blood Pressure",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "No data",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "220",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff8c8e",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#45713d",
+            "#d27f7f",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 920,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "82c99b130c8c9883",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "getBloodPressureString",
+        "func": "const systolicPressure = msg.payload.systolicPressure;\nconst diastolicPressure = msg.payload.diastolicPressure;\n\nmsg.payload = `${systolicPressure} / ${diastolicPressure} mmHg`;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 180,
+        "wires": [
+            [
+                "0f3ecf47204b7a11"
+            ]
+        ]
+    },
+    {
+        "id": "55920ec4f8eae7c5",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "getBloodPressure",
+        "func": "const systolicPressure = msg.payload.systolicPressure;\nconst diastolicPressure = msg.payload.diastolicPressure;\n\nmsg.payload = (systolicPressure / diastolicPressure) * 100;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 220,
+        "wires": [
+            [
+                "416543ea03c6eb9b"
+            ]
+        ]
+    },
+    {
+        "id": "0f3ecf47204b7a11",
+        "type": "ui_text",
+        "z": "8ff046fd9c9cb0ca",
+        "group": "2e7a922ff139fdbe",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Blood Pressure",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 920,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "ed18243ed4988a6a",
+        "type": "ui_text",
+        "z": "8ff046fd9c9cb0ca",
+        "group": "2e7a922ff139fdbe",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1b61de0d2d0855b0",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "getBloodPressureStatus",
+        "func": "const bloodPressureStatus = msg.payload.bloodPressureStatus;\nmsg.payload = bloodPressureStatus;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 140,
+        "wires": [
+            [
+                "ed18243ed4988a6a"
+            ]
+        ]
+    },
+    {
+        "id": "b8d5a8b2578fc592",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "heartRateGenerator",
+        "func": "let heartRate, minHeartRate, maxHeartRate, heartRateStatus;\n\nif (msg.payload == 0) {\n    heartRateStatus = \"DEAD ASF\";\n    minHeartRate = 0;\n    maxHeartRate = 0;\n} else if (msg.payload < 3) {\n    heartRateStatus = \"Low (Bradycardia)\";\n    minHeartRate = 20;\n    maxHeartRate = 60;\n} else if (msg.payload < 7) {\n    heartRateStatus = \"Ideal\";\n    minHeartRate = 60;\n    maxHeartRate = 100;\n} else if (msg.payload < 9) {\n    heartRateStatus = \"High (Tachycardia)\";\n    minHeartRate = 100;\n    maxHeartRate = 140;\n} else {\n    heartRateStatus = \"Severely High\";\n    minHeartRate = 150;\n    maxHeartRate = 200;\n}\n\nheartRate = Math.floor(Math.random() * (maxHeartRate - minHeartRate + 1)) + minHeartRate;\n\nmsg.payload = {\n   heartRate: heartRate,\n   heartRateStatus: heartRateStatus\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 320,
+        "wires": [
+            [
+                "58ba2a6ce0bdb387",
+                "17096a5ed24cc19f"
+            ]
+        ]
+    },
+    {
+        "id": "58ba2a6ce0bdb387",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "getHeartRateStatus",
+        "func": "const heartRateStatus = msg.payload.heartRateStatus;\nmsg.payload = heartRateStatus;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 320,
+        "wires": [
+            [
+                "2838a69f8e01c096"
+            ]
+        ]
+    },
+    {
+        "id": "2838a69f8e01c096",
+        "type": "ui_text",
+        "z": "8ff046fd9c9cb0ca",
+        "group": "01d033214dc342bd",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 910,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "6744f9a95e2313a1",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "oxygenSaturationGenerator",
+        "func": "let oxygen, minOxygen, maxOxygen, oxygenStatus;\n\nif (msg.payload == 0) {\n    oxygenStatus = \"DEAD ASF\";\n    maxOxygen = 0;\n    minOxygen = 0;\n} else if (msg.payload <= 2) {\n    oxygenStatus = \"Severe Hypoxemia\";\n    maxOxygen = 80;\n    minOxygen = 70;\n} else if(msg.payload <= 4) {\n    oxygenStatus = \"Mild Hypoxemia\";\n    maxOxygen = 90;\n    minOxygen = 80;\n} else if (msg.payload <= 7) {\n    oxygenStatus = \"Ideal\";\n    maxOxygen = 95;\n    minOxygen = 100;\n} else {\n    oxygenStatus = \"Severe Oxygen Desaturation\";\n    maxOxygen = 30;\n    minOxygen = 10;\n}\n\noxygen = Math.floor(Math.random() * (maxOxygen - minOxygen + 1)) + minOxygen;\n\nmsg.payload = {\n   oxygen: oxygen,\n   oxygenStatus: oxygenStatus\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 480,
+        "wires": [
+            [
+                "4f5436051651160f",
+                "db02175e461d9405"
+            ]
+        ]
+    },
+    {
+        "id": "4f5436051651160f",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "getOxygenStatus",
+        "func": "const oxygenStatus = msg.payload.oxygenStatus;\nmsg.payload = oxygenStatus;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 480,
+        "wires": [
+            [
+                "eb43f291a0835c12"
+            ]
+        ]
+    },
+    {
+        "id": "eb43f291a0835c12",
+        "type": "ui_text",
+        "z": "8ff046fd9c9cb0ca",
+        "group": "b58590aa088ddfa6",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 910,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "17096a5ed24cc19f",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "getHeartRate",
+        "func": "const heartRate = msg.payload.heartRate;\nmsg.payload = heartRate;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 360,
+        "wires": [
+            [
+                "18068a574e91f747",
+                "e496855b6ffde768"
+            ]
+        ]
+    },
+    {
+        "id": "18068a574e91f747",
+        "type": "ui_chart",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "",
+        "group": "01d033214dc342bd",
+        "order": 1,
+        "width": "6",
+        "height": "5",
+        "label": "Heart Rate",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "No data",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "200",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff8c8e",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#45713d",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e496855b6ffde768",
+        "type": "ui_text",
+        "z": "8ff046fd9c9cb0ca",
+        "group": "01d033214dc342bd",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Heart Rate",
+        "format": "{{msg.payload}} BPM",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 930,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "db02175e461d9405",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "getOxygen",
+        "func": "const oxygen = msg.payload.oxygen;\nmsg.payload = oxygen;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 520,
+        "wires": [
+            [
+                "30f15670ef5ce5ee",
+                "1ced49d97c94c099"
+            ]
+        ]
+    },
+    {
+        "id": "30f15670ef5ce5ee",
+        "type": "ui_chart",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "",
+        "group": "b58590aa088ddfa6",
+        "order": 1,
+        "width": "6",
+        "height": "5",
+        "label": "Oxygen Saturation",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "No data",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff8c8e",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#45713d",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1ced49d97c94c099",
+        "type": "ui_text",
+        "z": "8ff046fd9c9cb0ca",
+        "group": "b58590aa088ddfa6",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Oxygen Staturation",
+        "format": "{{msg.payload}}%",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 950,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "bc471138b76d5bb2",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "temperatureGenerator",
+        "func": "let temp, minTemp, maxTemp, tempStatus;\n\nif (msg.payload == 0) {\n    tempStatus = \"DEAD ASF\";\n    maxTemp = 0;\n    minTemp = 0;\n} else if (msg.payload <= 2) {\n    tempStatus = \"Hypothermia\";\n    maxTemp = 30;\n    minTemp = 25;\n}  else if (msg.payload <= 7) {\n    tempStatus = \"Ideal\";\n    maxTemp = 37;\n    minTemp = 35;\n} else {\n    tempStatus = \"Fever\";\n    maxTemp = 38;\n    minTemp = 40;\n}\n\ntemp = Math.random() * (maxTemp - minTemp + 1) + minTemp;\n\nmsg.payload = {\n   temp: temp,\n   tempStatus: tempStatus\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 640,
+        "wires": [
+            [
+                "3295cb89ec220566",
+                "e6b1418d5d2a2986"
+            ]
+        ]
+    },
+    {
+        "id": "3295cb89ec220566",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "getTempStatus",
+        "func": "const tempStatus = msg.payload.tempStatus;\nmsg.payload = tempStatus;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 640,
+        "wires": [
+            [
+                "1ff21cbc9e643c8c"
+            ]
+        ]
+    },
+    {
+        "id": "1ff21cbc9e643c8c",
+        "type": "ui_text",
+        "z": "8ff046fd9c9cb0ca",
+        "group": "3740a2b3d58da6f9",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 910,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "e6b1418d5d2a2986",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "getTemp",
+        "func": "const temp = msg.payload.temp;\nmsg.payload = temp;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 680,
+        "wires": [
+            [
+                "d2e6051e09579d5b",
+                "8e183e6a53bf7c72"
+            ]
+        ]
+    },
+    {
+        "id": "d2e6051e09579d5b",
+        "type": "ui_chart",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "",
+        "group": "3740a2b3d58da6f9",
+        "order": 1,
+        "width": "6",
+        "height": "5",
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "No data",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff8c8e",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#45713d",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e183e6a53bf7c72",
+        "type": "ui_text",
+        "z": "8ff046fd9c9cb0ca",
+        "group": "3740a2b3d58da6f9",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temperature",
+        "format": "{{msg.payload.toFixed(2)}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 930,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "1f9744aeef494eef",
+        "type": "ui_audio",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "",
+        "group": "2e7a922ff139fdbe",
+        "voice": "",
+        "always": "",
+        "x": 720,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "af40cea7d9568a11",
+        "type": "function",
+        "z": "8ff046fd9c9cb0ca",
+        "name": "voiceGenerator",
+        "func": "if (msg.payload == 0) {\n    msg.payload = \"You are dead!\";\n} else if (msg.payload < 3) {\n    msg.payload = \"\"\n} else if (msg.payload < 7) {\n    msg.payload = \"Normal\"\n} else if (msg.payload < 9) {\n    msg.payload = \"Drink some meds and rest\"\n} else {\n    msg.payload = \"Alert! Alert! You are going to die.\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 820,
+        "wires": [
+            [
+                "1f9744aeef494eef"
+            ]
+        ]
+    },
+    {
+        "id": "b4d35691d2f5d85b",
+        "type": "ui_template",
+        "z": "e1d915911b7acde9",
+        "group": "2e7a922ff139fdbe",
+        "name": "Dashboard Style",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    body.nr-dashboard-theme md-sidenav {\n        background: dirtywhite;\n    }\n\n    .nr-dashboard-theme md-toolbar {\n        background: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);\n    }\n\n    .nr-dashboard-theme ui-card-panel {\n        top: 2em !important;\n        background-color: #ffffff;\n        border-radius: 1em;\n        box-shadow: 9px 11px 5px 2px rgba(0,0,10,0.08);\n        -webkit-box-shadow: 9px 11px 5px 2px rgba(0,0,10,0.08);\n        -moz-box-shadow: 9px 11px 5px 2px rgba(0,0,10,0.08);\n    }\n\n    .nr-dashboard-cardpanel {\n     \n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 590,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    }
+]
